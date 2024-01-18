@@ -434,7 +434,20 @@ h6 {
 p {
   line-height: 25px;
 }
+/* SLIDER */
+.overlay {
+  position: relative;
+  width: 100%;
+}
 
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}
 /*Title margin bottom for each collumn*/
 /*Buttons*/
 .btn-xlg {
@@ -669,7 +682,7 @@ p {
   margin: 0;
 }
 .top_header .nav li a:hover {
-  color: #f5328c;
+  color: rgb(211, 20, 93);
   background: none;
 }
 .top_header .nav li a i,
